@@ -22,6 +22,10 @@ public class InheritanceDemo {
     // 2. Some money, a house, a car, a piece of land ... etc.
     // There properties are inherited by a CHILD from THEIR PARENTS, if they so choose.
 
+    // Inheritance (Object-Oriented): The entity is a class!
+    // Inheritance is the mechanism by which a class can acquire
+    // the properties(fields/variables) and/or methods of another class related to it.
+
     // 2. How we can use Inheritance to re-use code/programs/software that are already developed are tested.
     // 3. Observe how to use the `extends` keyword.
     // 4. What is a `super` class and what is a `sub` class.
