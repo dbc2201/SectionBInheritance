@@ -7,4 +7,5 @@
 package definitions;
 
 public class Phone {
+    private long contactNumber;
 }
