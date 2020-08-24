@@ -6,6 +6,7 @@
  * */
 package definitions;
 
+// landline
 public class Phone {
     private long contactNumber;
 
@@ -16,4 +17,6 @@ public class Phone {
     public void setContactNumber(long contactNumber) {
         this.contactNumber = contactNumber;
     }
+
+    // ...
 }
