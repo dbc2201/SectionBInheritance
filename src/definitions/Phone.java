@@ -8,4 +8,12 @@ package definitions;
 
 public class Phone {
     private long contactNumber;
+
+    public long getContactNumber() {
+        return contactNumber;
+    }
+
+    public void setContactNumber(long contactNumber) {
+        this.contactNumber = contactNumber;
+    }
 }
