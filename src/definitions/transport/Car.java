@@ -15,7 +15,7 @@ public class Car extends FourWheeler {
 // The FourWheeler.java class is the child class of the Vehicle.java class.
 // The FourWheeler.java class is also the parent class of the Car.java class.
 // The Car.java class is the child class of the FourWheeler.java class.
-// Vehicle <grandparent> <- FourWheeler <parent> <- Car <child>
+// Vehicle <grandparent> <- FourWheeler <parent> <- Car <child> (<- ...)
 
 // A Car IS A type of Vehicle.
 // A Car IS A type of FourWheeler as well.
