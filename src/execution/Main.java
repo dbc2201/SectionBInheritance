@@ -6,11 +6,14 @@
  * */
 package execution;
 
+import definitions.transport.FourWheeler;
 import definitions.transport.Vehicle;
 
 public class Main {
     public static void main(String[] args) {
         Vehicle myVehicle = new Vehicle();
         myVehicle.travel("Agra");
+        FourWheeler myFourWheeler = new FourWheeler();
+        myFourWheeler.travel("Delhi", "Agra");
     }
 }
