@@ -7,5 +7,10 @@
 package definitions.transport;
 
 public class Vehicle {
-
+    /**
+     * This method will allow the Vehicle to travel to a pre-defined location.
+     */
+    public void travel() {
+        System.out.println("Vehicle is travelling to Delhi.");
+    }
 }
