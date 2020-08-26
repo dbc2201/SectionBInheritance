@@ -6,15 +6,11 @@
  * */
 package execution;
 
-import definitions.MobilePhone;
-
-import java.util.Scanner;
+import definitions.transport.Vehicle;
 
 public class Main {
     public static void main(String[] args) {
-        Scanner scanner = new Scanner(System.in);
-        int number = scanner.nextInt();
-        scanner.close();
-        MobilePhone mobilePhone = new MobilePhone();
+        Vehicle myVehicle = new Vehicle();
+        myVehicle.travel("Agra");
     }
 }
