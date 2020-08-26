@@ -21,3 +21,17 @@ public class MobilePhone extends Phone {
 // To model it in our program, we have created MobilePhone.java class.
 
 // Mobile phone "IS A TYPE" of phone.
+
+// MobilePhone extends Phone
+// <subclass>  extends <superclass>
+// <childClass>extends <parentClass>
+
+// Phone <- (is inherited by) MobilePhone
+// The Phone.java class is the parent class of the MobilePhone.java class.
+// The MobilePhone.java class is the child class of the Phone.java class.
+
+// Parent Class / Super Class
+// Child Class / Sub Class
+
+
+
