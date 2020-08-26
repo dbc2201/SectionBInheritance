@@ -6,5 +6,9 @@
  * */
 package definitions.transport;
 
-public class FourWheeler {
+public class FourWheeler extends Vehicle {
+
 }
+
+// The Vehicle.java class is the parent class of the FourWheeler.java class.
+// The FourWheeler.java class is the child class of the Vehicle.java class.
