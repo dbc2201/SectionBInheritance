@@ -15,3 +15,5 @@
 - we can change the type of parameters.
  
 2. Method Overriding
+- Changing the behaviour of a method on the basis of the object that calls it.
+- the method signature needs to be exactly same, no exceptions!

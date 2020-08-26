@@ -12,8 +12,8 @@ import definitions.transport.Vehicle;
 public class Main {
     public static void main(String[] args) {
         Vehicle myVehicle = new Vehicle();
-        myVehicle.travel("Agra");
+        myVehicle.travel();
         FourWheeler myFourWheeler = new FourWheeler();
-        myFourWheeler.travel("Delhi", "Agra");
+        myFourWheeler.travel();
     }
 }
