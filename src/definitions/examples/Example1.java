@@ -16,4 +16,10 @@ class DemoA { // visibility modifier: default
         System.out.println("Parent Class Method.");
     }
 }
+class DemoB extends DemoA {
+    @Override
+    public void display() { // method overriding
+        System.out.println("Child Class Method.");
+    }
+}
 
