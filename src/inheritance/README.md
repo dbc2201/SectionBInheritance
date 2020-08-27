@@ -17,3 +17,9 @@
 2. Method Overriding
 - Changing the behaviour of a method on the basis of the object that calls it.
 - the method signature needs to be exactly same, no exceptions!
+
+## Visibility Modifiers In Inheritance
+1. public
+2. private
+3. protected
+4. <default>.
