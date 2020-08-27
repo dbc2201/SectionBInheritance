@@ -11,4 +11,9 @@ public class Example1 {
 
     }
 }
+class DemoA { // visibility modifier: default
+    public void display() {
+        System.out.println("Parent Class Method.");
+    }
+}
 
