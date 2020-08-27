@@ -6,14 +6,10 @@
  * */
 package execution;
 
-import definitions.transport.FourWheeler;
-import definitions.transport.Vehicle;
+import definitions.transport.Truck;
 
 public class Main {
     public static void main(String[] args) {
-        Vehicle myVehicle = new Vehicle();
-        myVehicle.travel();
-        FourWheeler myFourWheeler = new FourWheeler();
-        myFourWheeler.travel();
+        Truck myTruck = new Truck();
     }
 }

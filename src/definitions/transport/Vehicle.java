@@ -7,6 +7,24 @@
 package definitions.transport;
 
 public class Vehicle {
+
+    protected static class Engine { // accessible inside every child class
+        // even if the child class is outside this package.
+        private static Engine vehicleEngine;
+
+        public static Engine getVehicleEngine() {
+            return vehicleEngine;
+        }
+
+        public void setVehicleEngine(Engine vehicleEngine) {
+            vehicleEngine = vehicleEngine;
+        }
+    }
+
+    public Engine returnEngine() {
+        return Engine.getVehicleEngine();
+    }
+
     /**
      * This method will allow the Vehicle to travel to a pre-defined location.
      */
