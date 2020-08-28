@@ -14,4 +14,9 @@ public class Example5 {
 class A2 {
     private int j;
     private int k;
+
+    public void setValues(int x, int y) {
+        j = x;
+        k = y;
+    }
 }
