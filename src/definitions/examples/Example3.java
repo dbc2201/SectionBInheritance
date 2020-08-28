@@ -8,18 +8,21 @@ package definitions.examples;
 
 public class Example3 {
     public static void main(String[] args) {
-
+//        Bus miniBus = new Bus();
+//        miniBus.methodA();
     }
 }
-class Vehicle {
+final class Vehicle { // this final access modifier is restricting any class from inheriting
+    // the Vehicle class.
     float speed;
     float mileage;
-    public void methodA() {
+    public void methodA() { // 1
         System.out.println("Class Vehicle Method.");
     }
 }
-class Bus extends Vehicle {
-    public void methodA() {
+/*class Bus extends Vehicle { // cannot inherit the Vehicle class
+    // because it is declared as a final class.
+    public void methodA() { // 2
         System.out.println("Class Bus Method.");
     }
-}
+}*/
