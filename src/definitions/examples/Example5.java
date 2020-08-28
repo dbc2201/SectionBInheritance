@@ -12,5 +12,6 @@ public class Example5 {
     }
 }
 class A2 {
-
+    private int j;
+    private int k;
 }
