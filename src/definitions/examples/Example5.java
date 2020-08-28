@@ -34,6 +34,9 @@ class A2 {
         return k;
     }
 }
+class B2 extends A2 {
+
+}
 
 
 
