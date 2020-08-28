@@ -21,4 +21,19 @@ class A2 {
     }
 
     public int m;
+    void displayA() {
+        System.out.println("j = " + j + ", k = " + k);
+        System.out.println("(m * j * k) = " + (m * j * k));
+    }
 }
+
+
+
+
+
+
+
+
+
+
+
