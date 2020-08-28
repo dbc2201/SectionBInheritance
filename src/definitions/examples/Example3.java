@@ -11,3 +11,10 @@ public class Example3 {
 
     }
 }
+class Vehicle {
+    float speed;
+    float mileage;
+    public void methodA() {
+        System.out.println("Class Vehicle Method.");
+    }
+}
