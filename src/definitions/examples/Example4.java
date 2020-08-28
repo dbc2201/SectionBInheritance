@@ -18,3 +18,6 @@ class A1 {
         System.out.println("j * k = " + (j * k));
     }
 }
+class B1 extends A1 {
+
+}
