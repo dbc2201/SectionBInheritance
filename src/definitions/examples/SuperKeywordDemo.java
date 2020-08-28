@@ -14,4 +14,9 @@ public class SuperKeywordDemo {
 class Super {
     private int j;
     public int k;
+
+    public Super(int j, int k) {
+        this.j = j;
+        this.k = k;
+    }
 }
