@@ -11,11 +11,11 @@ public class SuperKeywordDemo {
 
     }
 }
-class Super {
+class Parent {
     private int j;
     public int k;
 
-    public Super(int j, int k) {
+    public Parent(int j, int k) {
         this.j = j;
         this.k = k;
     }
@@ -26,5 +26,18 @@ class Super {
 
     public void display() {
         System.out.println("j = " + j + ", k = " + k);
+    }
+}
+class Sub extends Parent {
+    private int m;
+
+    public Sub(int j, int k, int m) {
+        super(j, k); // call the constructor of its parent class
+        this.m = m;
+    }
+
+    public void displaySub() {
+        super.display();
+        System.out.println("m = " + m);
     }
 }
