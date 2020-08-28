@@ -19,5 +19,5 @@ class A1 {
     }
 }
 class B1 extends A1 {
-
+    int m;
 }
