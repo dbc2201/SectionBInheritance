@@ -11,3 +11,6 @@ public class SuperKeywordDemo {
 
     }
 }
+class Super {
+
+}
