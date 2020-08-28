@@ -11,3 +11,6 @@ public class Example5 {
 
     }
 }
+class A2 {
+
+}
