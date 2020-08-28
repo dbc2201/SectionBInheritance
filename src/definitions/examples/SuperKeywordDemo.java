@@ -19,4 +19,12 @@ class Super {
         this.j = j;
         this.k = k;
     }
+
+    public int getJ() {
+        return j;
+    }
+
+    public void display() {
+        System.out.println("j = " + j + ", k = " + k);
+    }
 }
