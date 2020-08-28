@@ -8,7 +8,8 @@ package definitions.examples;
 
 public class Example5 {
     public static void main(String[] args) {
-
+        A2 objectA2 = new A2();
+        B2 objectB2 = new B2();
     }
 }
 class A2 {
