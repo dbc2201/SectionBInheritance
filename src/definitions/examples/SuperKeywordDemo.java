@@ -8,7 +8,10 @@ package definitions.examples;
 
 public class SuperKeywordDemo {
     public static void main(String[] args) {
-
+        Parent parent = new Parent(4, 5);
+        parent.display();
+        Sub sub = new Sub(4, 5, 6);
+        sub.display();
     }
 }
 class Parent {
@@ -36,7 +39,8 @@ class Sub extends Parent {
         this.m = m;
     }
 
-    public void displaySub() {
+    @Override
+    public void display() {
         super.display();
         System.out.println("m = " + m);
     }
