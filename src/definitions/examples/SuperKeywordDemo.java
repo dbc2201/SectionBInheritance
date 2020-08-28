@@ -7,4 +7,7 @@
 package definitions.examples;
 
 public class SuperKeywordDemo {
+    public static void main(String[] args) {
+
+    }
 }
