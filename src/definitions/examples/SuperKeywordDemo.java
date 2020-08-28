@@ -12,5 +12,6 @@ public class SuperKeywordDemo {
     }
 }
 class Super {
-
+    private int j;
+    public int k;
 }
