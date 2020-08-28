@@ -20,4 +20,8 @@ class A1 {
 }
 class B1 extends A1 {
     int m;
+    void displayB() {
+        System.out.println("m = " + m + ", j = " + j + ", " + " k = " + k);
+        System.out.println("(m * j * k) = " + (m * j * k));
+    }
 }
