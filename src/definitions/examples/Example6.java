@@ -44,8 +44,11 @@ class SuperBike extends Bike {
     }
 }
 
-class RacingBike {
+class RacingBike extends SuperBike {
 
+    public RacingBike(int serialNumber, int maxSpeed) {
+        super(serialNumber, maxSpeed);
+    }
 }
 
 
