@@ -21,4 +21,8 @@ class Bike {
     public int getSerialNumber() {
         return serialNumber;
     }
+
+    public void printBikeInformation() {
+        System.out.println("serialNumber = " + serialNumber);
+    }
 }
