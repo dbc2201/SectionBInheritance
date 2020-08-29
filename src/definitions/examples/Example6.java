@@ -26,3 +26,6 @@ class Bike {
         System.out.println("serialNumber = " + serialNumber);
     }
 }
+class SuperBike {
+
+}
