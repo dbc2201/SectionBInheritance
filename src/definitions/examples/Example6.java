@@ -44,6 +44,10 @@ class SuperBike extends Bike {
     }
 }
 
+class RacingBike {
+
+}
+
 
 
 
