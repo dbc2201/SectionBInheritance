@@ -17,4 +17,8 @@ class Bike {
     public Bike(int serialNumber) {
         this.serialNumber = serialNumber;
     }
+
+    public int getSerialNumber() {
+        return serialNumber;
+    }
 }
