@@ -51,6 +51,12 @@ class RacingBike extends SuperBike {
         super(serialNumber, maxSpeed);
         this.racingTeamID = racingTeamID;
     }
+
+    @Override
+    public void printBikeInformation() {
+        super.printBikeInformation();
+        System.out.println("racingTeamID = " + racingTeamID);
+    }
 }
 
 
