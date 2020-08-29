@@ -11,8 +11,9 @@ public class Example6 {
 
     }
 }
+
 class Bike {
-    private int serialNumber;
+    private final int serialNumber;
 
     public Bike(int serialNumber) {
         this.serialNumber = serialNumber;
@@ -26,6 +27,10 @@ class Bike {
         System.out.println("serialNumber = " + serialNumber);
     }
 }
-class SuperBike {
 
+class SuperBike extends Bike {
+    public SuperBike(int serialNumber) {
+        super(serialNumber); // calling the constructor of the Bike class
+        // and passing the serialNumber parameter as an argument.
+    }
 }
