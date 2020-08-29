@@ -45,6 +45,7 @@ class SuperBike extends Bike {
 }
 
 class RacingBike extends SuperBike {
+    private int racingTeamID;
 
     public RacingBike(int serialNumber, int maxSpeed) {
         super(serialNumber, maxSpeed);
