@@ -10,6 +10,7 @@ public class Example6 {
     public static void main(String[] args) {
         Bike myBike = new Bike(1);
         myBike.printBikeInformation();
+        SuperBike mySuperBike = new SuperBike(2, 230);
     }
 }
 
