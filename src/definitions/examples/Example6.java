@@ -13,7 +13,7 @@ public class Example6 {
         SuperBike mySuperBike = new SuperBike(2, 230);
         mySuperBike.printBikeInformation();
         RacingBike myRacingBike = new RacingBike(3, 250, 7);
-
+        myRacingBike.printBikeInformation();
     }
 }
 
