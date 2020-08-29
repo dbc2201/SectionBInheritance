@@ -31,8 +31,15 @@ class Bike {
 class SuperBike extends Bike {
     int maxSpeed;
 
-    public SuperBike(int serialNumber) {
+    public SuperBike(int serialNumber, int maxSpeed) {
         super(serialNumber); // calling the constructor of the Bike class
         // and passing the serialNumber parameter as an argument.
+        this.maxSpeed = maxSpeed;
     }
 }
+
+
+
+
+
+
