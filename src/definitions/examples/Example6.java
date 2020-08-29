@@ -12,6 +12,8 @@ public class Example6 {
         myBike.printBikeInformation();
         SuperBike mySuperBike = new SuperBike(2, 230);
         mySuperBike.printBikeInformation();
+        RacingBike myRacingBike = new RacingBike(3, 250, 7);
+
     }
 }
 
