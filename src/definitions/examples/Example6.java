@@ -13,4 +13,8 @@ public class Example6 {
 }
 class Bike {
     private int serialNumber;
+
+    public Bike(int serialNumber) {
+        this.serialNumber = serialNumber;
+    }
 }
