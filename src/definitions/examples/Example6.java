@@ -11,3 +11,6 @@ public class Example6 {
 
     }
 }
+class Bike {
+
+}
