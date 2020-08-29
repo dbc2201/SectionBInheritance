@@ -36,6 +36,12 @@ class SuperBike extends Bike {
         // and passing the serialNumber parameter as an argument.
         this.maxSpeed = maxSpeed;
     }
+
+    @Override
+    public void printBikeInformation() {
+        super.printBikeInformation();
+        System.out.println("maxSpeed = " + maxSpeed);
+    }
 }
 
 
