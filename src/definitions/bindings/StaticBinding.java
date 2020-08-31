@@ -8,7 +8,8 @@ package definitions.bindings;
 
 public class StaticBinding {
     public static void main(String[] args) {
-
+        Vehicle myVehicle = new Vehicle();
+        myVehicle.display();
     }
 }
 
