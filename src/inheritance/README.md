@@ -22,4 +22,14 @@
 1. public
 2. private
 3. protected
-4. <default>.
+4. default>.
+
+--- 
+## Binding
+It is the association of a method call to its method body, done by the compiler.
+
+### Static Binding
+
+### Dynamic Binding
+
+ 
