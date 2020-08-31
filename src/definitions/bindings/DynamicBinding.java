@@ -22,4 +22,9 @@ class Jet extends Airplane {
     public void displayFuelStatus() {
         System.out.println("Sufficient fuel remaining.");
     }
+
+    @Override
+    public void display() {
+        System.out.println("Jet class.");
+    }
 }
