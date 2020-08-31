@@ -19,5 +19,7 @@ class Airplane {
 }
 
 class Jet extends Airplane {
-
+    public void displayFuelStatus() {
+        System.out.println("Sufficient fuel remaining.");
+    }
 }
