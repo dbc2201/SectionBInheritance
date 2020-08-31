@@ -13,7 +13,9 @@ public class StaticBinding {
 }
 
 class Vehicle {
-
+    public void display() {
+        System.out.println("Vehicle class.");
+    }
 }
 
 class Car extends Vehicle {
