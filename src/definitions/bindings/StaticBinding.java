@@ -16,6 +16,6 @@ class Vehicle {
 
 }
 
-class Car {
+class Car extends Vehicle {
 
 }
