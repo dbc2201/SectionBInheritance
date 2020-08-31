@@ -9,7 +9,7 @@ package definitions.examples;
 public class Example6 {
     public static void main(String[] args) {
         Bike myBike = new Bike(1);
-        myBike.printBikeInformation();
+        myBike.printBikeInformation(); // method call
         SuperBike mySuperBike = new SuperBike(2, 230);
         mySuperBike.printBikeInformation();
         RacingBike myRacingBike = new RacingBike(3, 250, 7);
@@ -28,6 +28,7 @@ class Bike {
         return serialNumber;
     }
 
+    // method body
     public void printBikeInformation() {
         System.out.println("serialNumber = " + serialNumber);
     }

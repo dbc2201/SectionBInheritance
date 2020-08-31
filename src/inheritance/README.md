@@ -29,6 +29,8 @@
 It is the association of a method call to its method body, done by the compiler.
 
 ### Static Binding
+It is performed at the compile-time (before the execution of the code),
+by the compiler. It is also known as `early binding`.
 
 ### Dynamic Binding
 
