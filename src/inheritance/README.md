@@ -33,5 +33,6 @@ It is performed at the compile-time (before the execution of the code),
 by the compiler. It is also known as `early binding`.
 
 ### Dynamic Binding
-
+The compiler is not able to reolve the method call at compile time.
+Ex - method overriding.
  

@@ -8,7 +8,11 @@ package definitions.bindings;
 
 public class DynamicBinding {
     public static void main(String[] args) {
-
+        Jet airplane = new Jet();
+        // We are creating an object of the child class, and
+        // we are storing the reference value of the object
+        // in a reference variable of its parent class.
+        airplane.display();
     }
 }
 
