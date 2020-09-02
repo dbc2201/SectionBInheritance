@@ -50,10 +50,10 @@ class RacingBike extends Bike {
 }
 
 class DeliveryBike extends Bike {
-//    @Override
-//    public void display() { // 3
-//        System.out.println("DeliveryBike Class.");
-//    }
+    @Override
+    public void display() { // 3
+        System.out.println("DeliveryBike Class.");
+    }
     // if we comment out the above code,
     // then the DeliveryBike class does not have any overridden version of
     // the display() method, in this case, the display method from the
