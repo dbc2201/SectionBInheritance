@@ -35,4 +35,20 @@ by the compiler. It is also known as `early binding`.
 ### Dynamic Binding
 The compiler is not able to reolve the method call at compile time.
 Ex - method overriding.
+
+## Dynamic Method Dispatch
+- It is a mechanism by which we can achieve runtime polymorphism for overridden methods 
+in Java.
+
+- It is implemented with the help of a reference variable of the superclass (parent class).
+
+- A reference variable of the parent class can refere to the reference value of 
+an object of the child class.
+
+- There can be many subclasses (children classes) inherited from a single parent class.
+
+- Each child class will have its own version of the overridden method.
+
+- The compiler will use Dynamic Method Dispatch to choose the correct version of
+the overridden method that should be executed.
  
