@@ -8,7 +8,7 @@ package definitions.dynamicMethodDispatch;
 
 public class DynamicMethodDispatch {
     public static void main(String[] args) {
-
+        Bike bike = new Bike();
     }
 }
 
