@@ -7,4 +7,5 @@
 package definitions.interfaces;
 
 public interface Radius {
+    double radius = 10.0;
 }
