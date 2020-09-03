@@ -18,6 +18,6 @@ class Human {
     }
 }
 
-class Student {
+class Student extends Human {
 
 }
