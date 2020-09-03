@@ -6,5 +6,20 @@
  * */
 package definitions.interfaces;
 
-public class Circle {
+// for inheriting classes and abstract classes we use:
+// the `extends` keyword
+
+// for interfaces we use:
+// the `implements` keyword
+
+public class Circle implements Radius, PI, AreaCircle {
+    public static void main(String[] args) {
+        Circle circle = new Circle();
+        circle.calculateArea();
+    }
+
+    @Override
+    public void calculateArea() {
+        System.out.println(pi * radius * radius);
+    }
 }
