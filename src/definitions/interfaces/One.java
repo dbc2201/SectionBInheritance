@@ -17,5 +17,11 @@ public interface One {
     int number = 5;
 
     // 2. For methods
-
+    // i. all the methods in an interface are automatically considered
+    // to be abstract i.e we cannot define their bodies.
+    // ii. all the methods in an interface are automatically considered
+    // to be declared as public.
+    // iii. all the methods in an interface are automatically considered
+    // to be declared as abstract.
+    void method1();
 }
