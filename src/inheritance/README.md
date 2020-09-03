@@ -77,3 +77,6 @@ child classes to implement (override) all the abstract methods.
 - There should at least 1 abstract method in any abstract class.a
 
 ## Interfaces in Java
+- We know that in Java, we cannot implement multiple inheritance by using classes.
+- A single class can have only a single parent class.
+- We can overcome this problem using Interfaces in Java.
