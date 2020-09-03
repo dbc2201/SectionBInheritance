@@ -1,15 +1,10 @@
 /*  Created by IntelliJ IDEA.
  *  User: Divyansh Bhardwaj (dbc2201)
  *  Date: 03/09/20
- *  Time: 1:20 PM
- *  File Name : Example.java
+ *  Time: 1:21 PM
+ *  File Name : One.java
  * */
 package definitions.interfaces;
 
-public class Example {
-    public static void main(String[] args) {
-
-    }
+public interface One {
 }
-
-
