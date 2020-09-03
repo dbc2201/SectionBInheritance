@@ -62,5 +62,12 @@ we have been working with one of the types extensively.
 4. Enums
 
 ## Abstract Classes in Java
+- There are some situations in which when we declare a parent-class, and some child classes,
+it may happen that, we do not want to initialize a parent class by declaring its objects,
+but we want the child classes to override the methods of the parent class and use them.
+- OR Every method created in the parent class is overridden in every child class,
+so, no child class is actually using the functionality of the method defined in the 
+parent class.
+
 
 ## Interfaces in Java
