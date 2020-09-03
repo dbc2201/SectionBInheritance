@@ -68,6 +68,12 @@ but we want the child classes to override the methods of the parent class and us
 - OR Every method created in the parent class is overridden in every child class,
 so, no child class is actually using the functionality of the method defined in the 
 parent class.
-
+- The abstract methods are not fully defined in the super class.
+- Only the subclasses contain the method body of the overridden methods.
+- Any class that has any number of abstract methods has to be declared as an abstract
+class.
+- If the parent class is declared as an abstract class, it is necessary for all its
+child classes to implement (override) all the abstract methods.
+- There should at least 1 abstract method in any abstract class.a
 
 ## Interfaces in Java
