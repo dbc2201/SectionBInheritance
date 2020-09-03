@@ -7,4 +7,5 @@
 package definitions.interfaces;
 
 public interface PI {
+    double pi = 3.14;
 }
