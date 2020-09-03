@@ -17,3 +17,7 @@ class Human {
         System.out.println("I am Human.");
     }
 }
+
+class Student {
+
+}
