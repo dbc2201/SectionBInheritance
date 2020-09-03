@@ -7,4 +7,7 @@
 package definitions.abstractClasses;
 
 public class Example {
+    public static void main(String[] args) {
+
+    }
 }
