@@ -7,5 +7,5 @@
 package definitions.interfaces;
 
 public interface AreaCircle {
-
+    void calculateArea();
 }
