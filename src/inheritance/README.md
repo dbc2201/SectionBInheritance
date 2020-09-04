@@ -82,3 +82,13 @@ child classes to implement (override) all the abstract methods.
 - We can overcome this problem using Interfaces in Java.
 
 ### Similarities between an Interface and a Class.
+1. Declaring an interface is similar to declaring a class; we just use the 
+`interface` keyword instead of the `class` keyword.
+2. Interfaces can also have visibility modifers just like classes.
+ Interfaces can be `public` or `<default>`.
+3. We can create reference variables of Interfaces just like classes.
+4. An interface can contain inner classes and/or inner interfaces. 
+5. Since Java 8, we can define methods in an Interface with the `<default>` or 
+the `static` keywords.
+
+
