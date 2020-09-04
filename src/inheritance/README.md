@@ -91,4 +91,5 @@ child classes to implement (override) all the abstract methods.
 5. Since Java 8, we can define methods in an Interface with the `<default>` or 
 the `static` keywords.
 
+### Difference between an Interface and a Class.
 
