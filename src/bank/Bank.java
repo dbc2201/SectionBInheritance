@@ -7,4 +7,7 @@
 package bank;
 
 public interface Bank {
+    void createBankAccount();
+    // But since every bank has different formalities for creating a bank account,
+    // we will leave this method here as an abstract method.
 }
