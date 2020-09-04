@@ -92,4 +92,12 @@ child classes to implement (override) all the abstract methods.
 the `static` keywords.
 
 ### Difference between an Interface and a Class.
-
+1. Interfaces cannot implement other interfaces, we need a class.
+2. In classes, we can have method with bodies, but interfaces have abstract methods.
+Since Java 8, we can have methods with bodies in Interfaces also.
+3. The methods declared in interfaces are implicitly public.
+4. An interface does not contain instance variables.
+5. The variables in an interface are public, static and final.
+6. Interfaces cannot have constructors.
+7. An interface cannot extend a class only interfaces.
+8. A class can extend only one class  but an interface can extend many interfaces.
