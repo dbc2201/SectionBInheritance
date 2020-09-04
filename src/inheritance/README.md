@@ -84,7 +84,7 @@ child classes to implement (override) all the abstract methods.
 ### Similarities between an Interface and a Class.
 1. Declaring an interface is similar to declaring a class; we just use the 
 `interface` keyword instead of the `class` keyword.
-2. Interfaces can also have visibility modifers just like classes.
+2. Interfaces can also have visibility modifiers just like classes.
  Interfaces can be `public` or `<default>`.
 3. We can create reference variables of Interfaces just like classes.
 4. An interface can contain inner classes and/or inner interfaces. 
@@ -100,4 +100,4 @@ Since Java 8, we can have methods with bodies in Interfaces also.
 5. The variables in an interface are public, static and final.
 6. Interfaces cannot have constructors.
 7. An interface cannot extend a class only interfaces.
-8. A class can extend only one class  but an interface can extend many interfaces.
+8. A class can extend only one class but an interface can extend many interfaces.
