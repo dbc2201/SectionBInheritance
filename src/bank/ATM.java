@@ -7,4 +7,5 @@
 package bank;
 
 public interface ATM {
+    void withdrawMoney();
 }
