@@ -80,3 +80,5 @@ child classes to implement (override) all the abstract methods.
 - We know that in Java, we cannot implement multiple inheritance by using classes.
 - A single class can have only a single parent class.
 - We can overcome this problem using Interfaces in Java.
+
+### Similarities between an Interface and a Class.
