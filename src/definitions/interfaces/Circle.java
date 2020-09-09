@@ -16,6 +16,8 @@ public class Circle implements Radius, PI, AreaCircle {
     public static void main(String[] args) {
         Circle circle = new Circle();
         circle.calculateArea();
+        int number = 4;
+        Integer integer = Integer.valueOf("4");
     }
 
     @Override
