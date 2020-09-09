@@ -6,7 +6,7 @@
  * */
 package bank;
 
-public class IOBBank implements Bank, ATM{
+public class IOBBank implements Bank, ATM {
 
     @Override
     public void withdrawMoney() {

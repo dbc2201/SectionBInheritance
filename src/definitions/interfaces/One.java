@@ -13,7 +13,9 @@ public interface One {
     // are automatically considered to be public by the compiler.
     // iii. all the fields of an interface are automatically considered
     // to be 'final' variable i.e we cannot change the values of these fields.
-    // public final <dataType> <variableName> = <initialValue>;
+    // iv. all the fields of an interface are automatically considered
+    // to be static also.
+    // public static afinal <dataType> <variableName> = <initialValue>;
     int number = 5;
 
     // 2. For methods
